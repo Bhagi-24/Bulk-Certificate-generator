@@ -2,7 +2,7 @@
 
 A Django REST API for generating certificates in bulk from a predefined certificate template.
 
-The API accepts a single request containing multiple recipients, validates the input, creates a generation job, generates individual PDF certificates, tracks the status of each certificate, and provides an API to retrieve generated certificates.
+The API accepts a single request containing multiple recipients, validates the input, creates a generation job, generates individual PDF certificates, tracks the status of each certificate, and provides APIs to check job status and download generated certificates.
 
 ---
 
